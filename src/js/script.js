@@ -1,11 +1,10 @@
 'use strict';
 
-let firstNum = prompt('Enter fisrt value');
+const firstNum = +prompt('Enter fisrt value');
 
-let secondNum = prompt('Enter second value');
+const secondNum = +prompt('Enter second value');
 
-firstNum = parseFloat(firstNum);
-secondNum = parseFloat(secondNum);
+
 
 const sum = firstNum + secondNum;
 const diff = firstNum - secondNum;
