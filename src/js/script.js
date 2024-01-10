@@ -15,5 +15,4 @@ if(isNaN(userNum) || userNum < 1){
     if (divisor > userNum){
         console.log('Your number is divisor')
     }
-
 }
