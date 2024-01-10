@@ -1,7 +1,6 @@
 'use strict';
 
 const userNum = +prompt('Enter your number');
-
 if(isNaN(userNum) || userNum < 1){
     console.log(NaN)
 }else{
