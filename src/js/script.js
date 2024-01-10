@@ -19,13 +19,12 @@ while (!isValidOperation) {
             alert('Entered wrong operation, please choose one of the given');
     }
 }
-let num1 = prompt('Enter first value');
-let num2 = prompt('Enter second value')
+const num1 = +prompt('Enter first value');
+const num2 = +prompt('Enter second value')
 //в этой домашке, как и 12 не получилось реализовать через константы т.к. редактор выдает ошибку
 //по быстрым подсказкам редактор предложил заменить на let, как я понял это связано с тем, что мы будем получать
 //динамические значения каждый раз при запросе, а не статические, поправь если не правильно понял
-num1 = parseFloat(num1);
-num2 = parseFloat(num2);
+
 
 let calculation;
 let calculationSymbol;
@@ -51,9 +50,9 @@ switch (question) {
     break;
 }
 
-let Results = `${num1} ${calculationSymbol} ${num2} = ${calculation}`;
-alert(Results);
+const results = `${num1} ${calculationSymbol} ${num2} = ${calculation}`;
+alert(results);
 console.log(calculation);
-console.log(Results);
+console.log(results);
 
 
